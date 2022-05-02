@@ -1,0 +1,35 @@
+.lead {
+  width: calc(100vw - 16%);
+  max-width: 984px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 92px;
+}
+
+@media screen and (max-width: 1279px) {
+  .lead {
+    max-width: 928px;
+    max-height: 962px;
+    width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead {
+    max-width: 768px;
+    max-height: 862px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead {
+    min-width: 320px;
+    min-height: 406px;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 64px;
+  }
+}
