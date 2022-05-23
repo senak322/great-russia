@@ -1,28 +1,25 @@
 .lead__image {
   max-width: 984px;
-  max-height: 615px;
   width: calc(100vw - 96px);
 }
 
 @media screen and (max-width: 1279px) {
   .lead__image {
     max-width: 928px;
-    max-height: 962px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .lead__image {
-    min-width: 768px;
-    max-height: 862px;
+   /* min-width: 768px;*/
     width: 100%;
   }
 }
 
 @media screen and (max-width: 767px) {
   .lead__image {
-    min-width: 320px;
-    min-height: 200px;
+    /*min-width: 320px;*/
+    width: 100%;
   }
 }
 

@@ -1,24 +1,24 @@
 .header__lang-link {
   color: #FFFFFF;
-  width: 30px;
-  height: 28px;
+  max-width: 30px;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
   text-decoration: none;
+  transition: 0.5s ease;
 }
 
-.header__lang-link:first-of-type {
-  margin-right: 18px;
-  text-decoration: underline;
+.header__lang-link:hover {
+  opacity: 0.5;
 }
+
+
 
 @media screen and (max-width: 767px) {
   .header__lang-link {
-    width: 22px;
-    height: 20px;
+    max-width: 22px;
     font-size: 18px;
     line-height: 20px;
   }

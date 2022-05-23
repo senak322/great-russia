@@ -14,17 +14,17 @@
 @media screen and (max-width: 1023px) {
   .intro  {
     max-width: 720px;
-    max-height: 429px;
     width: calc(100% - 48px);
-    margin: 0 0 88px;
+    margin-bottom: 88px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .intro  {
     max-width: 288px;
-    max-height: 754px;
-    margin: 0 0 64px;
+    margin-bottom: 64px;
     width: calc(100% - 32px);
   }
 }
+
+

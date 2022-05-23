@@ -1,7 +1,6 @@
 .place__url-heading {
   max-width: 456px;
-  max-height: 12px;
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -9,18 +8,17 @@
   letter-spacing: 2px;
   color: #AAAAAA;
   margin: 0 0 12px;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 1023px) {
   .place__url-heading {
     max-width: 352px;
-    max-height: 12px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .place__url-heading {
     max-width: 288px;
-    max-height: 12px;
   }
 }

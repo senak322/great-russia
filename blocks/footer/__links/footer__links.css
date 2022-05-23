@@ -4,7 +4,6 @@
   display: flex;
   margin: 0;
   max-width: 50px;
-  max-height: 18px;
 }
 
 @media screen and (max-width: 767px) {
